@@ -2,8 +2,8 @@ def reverse_each_word(sentence_string)
   array = sentence_string.split
     array.collect do |word|
       word.reverse
+      puts array
   end
-  puts array
 end
 
 string = "Hello how are you?"
